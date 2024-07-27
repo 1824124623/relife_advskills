@@ -1,4 +1,4 @@
-# Описание переменных в конфиге config_ActionCompletePerks.json
+# config_ActionCompletePerks.json 配置中变量的描述
 ## Настройка активации перка при выполнении действий наследуемых классы ActionContiniousBase и ActionSingleUseBase
 Описание действия `ActionBandageSelf`.
 
