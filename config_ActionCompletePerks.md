@@ -1,6 +1,6 @@
 # config_ActionCompletePerks.json 配置中变量的描述
-## Настройка активации перка при выполнении действий наследуемых классы ActionContiniousBase и ActionSingleUseBase
-Описание действия `ActionBandageSelf`.
+## 在执行继承自 ActionContiniousBase 和 ActionSingleUseBase 类的操作时配置技能激活
+行动说明 `ActionBandageSelf`.
 
 - **`ActionBandageSelf`**: Класснейм действия.
 - **`perkID`**: ID активируемого перка.
