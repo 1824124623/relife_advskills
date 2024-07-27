@@ -1,10 +1,10 @@
-# Описание переменных в конфиге config_ActionCompletePoints.json
+# config_ActionCompletePoints.json 配置中变量的描述
 
-Параметры могут быть указаны для поиска начисляемого опыта по имени переменной.
+可以指定参数，按变量名搜索累计经验
 
 ## `GetAdvSkills().GetAddPointsFromName(string pointConfigName)`
 
-Функция возвращает значение типа `float` для указанного имени начисления опыта.
+函数为指定的应计经验值名称返回一个 `float` 类型的值.
 
 ### Параметры:
 
