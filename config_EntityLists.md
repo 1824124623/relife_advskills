@@ -8,11 +8,11 @@
 - **`KillPoints`**: `float` 击杀时获得的经验值.
 - **`SkinningPoints`**: `float` 切割时获得的经验值.
 - **`toolSkinDamageCoef`**: `float` 刀具的伤害乘数。1.0 是标准伤害。也就是说，如果增加该值，用于剥皮的工具将受到更大的伤害. **默认伤害 * toolSkinDamageCoef.**
-- **`typeOfSkillKill`**: `string` Тип навыка на который будет начислен опыт при убийстве.
-- **`typeOfSkillSkinning`**: `string` Тип навыка на который будет начислен опыт при разделке.
-- **`showNotify`**: `bool` Показывать уведомление о полученом опыте при убийстве.
-- **`modeKnifesAllow`**: `bool` Режим проверки ножей для разделки. 0 - Разрешено разделать только ножами из списка knifesList или knifesListID. 1 - Запрещена разделка ножами из списка knifesList или knifesListID.
-- **`allowknifesListKindOf`**: `bool` Включить наследуемость класснйемов при проверке ножей. То есть, при значении 1, будут проверяться все ножи из списка knifesList, включая те, которые наследуют их классы. Иначе будет проверяться именно этот нож. 
+- **`typeOfSkillKill`**: `string` 击杀时获得技能经验的类型.
+- **`typeOfSkillSkinning`**: `string` 切割时获得技能经验的类型.
+- **`showNotify`**: `bool` 显示击杀获得经验通知.
+- **`modeKnifesAllow`**: `bool` 切割道具检查模式. 0 - 只能使用 knifesList 或 knifesListID 中的刀具进行切割. 1 - 禁止使用 knifesList 或 knifesListID 中的刀具进行切割.
+- **`allowknifesListKindOf`**: `bool` 在检查刀具时启用类继承。也就是说，如果值为 1，将检查 knifesList 中的所有刀具，包括那些继承其类的刀具。否则，将检查此特定刀具。
 - **`knifesList`**: `TStringArray` Массив класснеймов ножей, если есть записи, то животное можно будет разделать или нет, только ножами из этого списка. Если заполнено, то knifesListID будет проигнорировано. 
 - **`knifesListID`**: `TIntArray` Массив ID списка ножей, если есть записи, то животное можно будет разделать или нет, только ножами из этого списка. Хранятся айди в отдельном конфиге config_KnifesListIDConfig.json
 
