@@ -1,11 +1,11 @@
-# Описание переменных в конфиге config_ActionCompletePoints.json
-## Настройка начисления опыта при выполнении действий наследуемых классы ActionContiniousBase и ActionSingleUseBase
-Описание действия `ActionChickenBreak`.
+# config_ActionCompletePoints.json 配置中变量的描述
+## 配置执行继承自 ActionContiniousBase 和  ActionSingleUseBase 类的操作时的获得的经验值
+行动说明 `ActionChickenBreak`.
 
-- **`ActionChickenBreak`**: Класснейм действия.
-- **`skillPoints`**: Количество получаемого опыта при выполнении.
-- **`typeOfSkill`**: Тип навыка.
-- **`showNotify`**: Флаг для отображения уведомлений - 1 или 0.
+- **`ActionChickenBreak`**: 动作的类型名称.
+- **`skillPoints`**: 执行动作时获得的经验值.
+- **`typeOfSkill`**: 技能类型.
+- **`showNotify`**: 是否显示通知 - 1 或者 0.
 
 Пример:
 
